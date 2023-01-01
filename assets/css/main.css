@@ -1,4 +1,11 @@
-/*Template Name: Fruitkha - Responsive Bootstrap4 Shop TemplateTemplate URI: Description: Bootstrap template for fruits or any other kind of shopAuthor: Imran HossainAuthor URI: https://imransdesign.com/Version: 1.0*/
+/*
+Template Name: Fruitkha - Responsive Bootstrap4 Shop Template
+Template URI: 
+Description: Bootstrap template for fruits or any other kind of shop
+Author: Imran Hossain
+Author URI: https://imransdesign.com/
+Version: 1.0
+*/
 /* -----------------------------------------------------------------------------
 
 # Base - Genral & Typography
@@ -503,7 +510,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #07212e;
+  background-color: #444444;
   z-index: -1;
   opacity: 0.8;
 }
@@ -549,7 +556,7 @@ nav.main-menu ul li {
 }
 
 nav.main-menu ul li a {
-  color: #fff;
+  color: #F4F7F9;
   font-weight: 700;
   display: block;
   padding: 15px;
@@ -715,7 +722,7 @@ nav.main-menu li a {
 }
 
 .sticky-wrapper.is-sticky .top-header-area {
-  background-color: #051922;
+  background-color: #444444;
   padding: 15px 0;
 }
 
@@ -855,7 +862,7 @@ a.mobile-show {
 }
 
 .footer-area {
-  background-color: #051922;
+  background-color: #444444;
   color: #fff;
   padding: 150px 0;
 }
@@ -902,7 +909,7 @@ h2.widget-title:after {
 
 .footer-box.subscribe form input[type=email] {
   border: none;
-  background-color: #012738;
+  background-color: #faf1ee;
   width: 78%;
   padding: 15px;
   border-top-left-radius: 5px;
@@ -913,7 +920,7 @@ h2.widget-title:after {
 .footer-box.subscribe form button {
   width: 20%;
   border: none;
-  background-color: #012738;
+  background-color: #f4d2bc;
   color: #F28123;
   padding: 14px 0;
   border-top-right-radius: 3px;
