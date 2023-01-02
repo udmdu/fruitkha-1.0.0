@@ -7,7 +7,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Check Out</title>
+	<title>Shop</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
@@ -50,7 +50,7 @@
 						<div class="main-menu-wrap">
 							<!-- logo -->
 							<div class="site-logo">
-								<a href="index_2.html">
+								<a href="index.html">
 									<img src="assets/img/logo.png" alt="">
 								</a>
 							</div>
@@ -59,10 +59,10 @@
 							<!-- menu start -->
 							<nav class="main-menu">
 								<ul class="d-flex">
-									<li><a href="index_2.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
+									<li><a href="index.html">Home</a></li>
 									<li><a href="shop-pg1.html">Shop</a></li>
-									<li class="ml-auto"><a href="checkout.html">Register</a></li>
+								<li><a href="about.html">About</a></li>
+									<li class="ml-auto"><a href="register.html">Register</a></li>
 									<li>
 									</li>
 								</ul>
@@ -101,7 +101,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Fresh and Organic</p>
-						<h1>Check Out Product</h1>
+						<h1>Shop</h1>
 					</div>
 				</div>
 			</div>
@@ -109,73 +109,60 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- check out section -->
-	<div class="checkout-section mt-150 mb-150">
+	<!-- products -->
+	<div class="product-section mt-150 mb-150">
 		<div class="container">
+
 			<div class="row">
-				<div class="col-lg-8">
-					<div class="checkout-accordion-wrap">
-						<div class="accordion" id="accordionExample">
-						  <div class="card single-accordion">
-						    <div class="card-header" id="headingOne">
-						      <h5 class="mb-0">
-						        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						          Register
-						        </button>
-						      </h5>
-						    </div>
+                <div class="col-md-12">
+                    <div class="product-filters">
+                        <ul>
+							<a href="shop-pg1.html"><li>All</li></a>
+							<a href="shop-category-body.html"><li>Body</li></a>
+							<a href="shop-category-cleansing.html"><li>Cleansing</li></a>
+							<a href="shop-category-mask.html"><li class="active">Mask</li></a>
+							<a href="shop-category-Nail.html"><li>Nail</li></a>
+							<a href="shop-category-essentialoils.html"><li>Essential Oils</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-						    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-						      <div class="card-body">
-						        <div class="billing-address-form">
-						        	<form action="index.html">
-						        		<p><input type="text" placeholder="First Name"></p>
-						        		<p><input type="email" placeholder="Last Name"></p>
-						        		<p><input type="text" placeholder="Middle Initial"></p>
-										<p>Gender</p>
-						        		<p></p><div class="btn-group btn-group-toggle" data-toggle="buttons">
-											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option1" autocomplete="off" checked> Male
-											</label>
-											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option2" autocomplete="off"> Female
-											</label>
-											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option3" autocomplete="off"> Prefer not to say
-											</label>
-										</div></p>
-										<p><input type="email" placeholder="Email Address"></p>
-						        		<p>Civil Status</p>
-						        		<p></p><div class="btn-group btn-group-toggle" data-toggle="buttons">
-											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option1" autocomplete="off" checked> Single
-											</label>
-											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option2" autocomplete="off"> Married
-											</label>
-										</div></p>
-						        		<p><input type="tel" placeholder="Mobile Number"></p>
-										<p>Birthdate:<input type="date" placeholder="Birthdate"></p>
-						        		<p><input type="text" placeholder="Shipping Address"></p>
-										<p><input type="text" minlength="16"  maxlength="19" placeholder="Credit Card Number"></p>
-										<p>Date of Expiry<input type="date" placeholder="Date of Expiry"></p>
-										<p><input type="text" minlength="3"  maxlength="3" placeholder="3 Digit Confirmation Number"></p>
-						        	</form>
-						        </div>
-						      </div>
-						    </div>
-						  </div>
+			<div class="row product-lists">
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product13.html"><img src="assets/img/products/Mask-CicaXHyalon.png" alt=""></a>
 						</div>
+						<h3>Cica X Hyalon Pro-Cica Mask</h3>
+						<p class="product-price"><span>Per Kg</span> 85$ </p>
+						<a href="single-product13.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
-
-					<div class="order-details-wrap">
-						<a href="#" class="boxed-btn">Register</a>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product14.html"><img src="assets/img/products/Mask-TakoPore.png" alt=""></a>
+						</div>
+						<h3>Tako Pore Charcoal Clear Mask Pack</h3>
+						<p class="product-price"><span>Per Kg</span> 70$ </p>
+						<a href="single-product14.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="single-product-item">
+						<div class="product-image">
+							<a href="single-product11.html"><img src="assets/img/products/Mask-Hein.png" alt=""></a>
+						</div>
+						<h3>Hein Impureness 100 Masks</h3>
+						<p class="product-price"><span>Per Kg</span> 45$ </p>
+						<a href="single-product11.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end check out section -->
+	<!-- end products -->
 
 	<!-- footer -->
 	<div class="footer-area">
@@ -204,7 +191,7 @@
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="shop-pg1.html">Shop</a></li>
-							<li><a href="checkout.html">Register</a></li>
+							<li><a href="register.html">Register</a></li>
 						</ul>
 					</div>
 				</div>

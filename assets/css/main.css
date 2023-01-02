@@ -846,6 +846,26 @@ a.mobile-show {
   letter-spacing: 7px;
 }
 
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active{
+  color: #ffffff;
+  background-color: #e3873b;
+  border-color: #e3873b;
+}
+
+.btn-outline-primary:hover{
+  background-color: #e3873b;
+  border-color: #e3873b;
+}
+
+.btn-outline-primary{
+  color: rgb(124, 120, 120);
+  border-color: #ecac78;
+}
+
+.btn-outline-primary.focus{
+  box-shadow: 0 0 0 0.2rem #e79c5f;;
+}
+
 /* -----------------------------------------------------------------------------
 
 # Footer Styles
