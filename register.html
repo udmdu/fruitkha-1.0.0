@@ -82,7 +82,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Register</p>
-						<h1>Check Out Product</h1>
+						<h1>Create an Account</h1>
 					</div>
 				</div>
 			</div>
@@ -95,8 +95,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
-					<div class="register-accordion-wrap">
-						<div class="accordion" id="accordionExample">
+					<div>
+						<div>
 						  <div class="card single-accordion">
 						    <div class="card-header" id="headingOne">
 						      <h5 class="mb-0">
@@ -109,48 +109,45 @@
 						    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 						      <div class="card-body">
 						        <div class="billing-address-form">
-						        	<form action="index.html">
-						        		<p><input type="text" placeholder="First Name"></p>
-						        		<p><input type="email" placeholder="Last Name"></p>
-						        		<p><input type="text" placeholder="Middle Initial"></p>
+						        	<form action="thankyou.html">
+						        		<p><input type="text" placeholder="First Name" required></p>
+						        		<p><input type="text" placeholder="Last Name" required></p>
+						        		<p><input type="text" placeholder="Middle Initial" maxlength="1" pattern="[A-Z]" required title="UPPER-CAPS"></p>
 										<p>Gender</p>
 						        		<p></p><div class="btn-group btn-group-toggle" data-toggle="buttons">
 											<label class="btn btn-outline-primary btn-change-color">
-											  <input type="radio" name="options" id="option1" autocomplete="off" checked> Male
+											  <input type="radio" name="options" id="option1" autocomplete="off" checked required> Male
 											</label>
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option2" autocomplete="off"> Female
+											  <input type="radio" name="options" id="option2" autocomplete="off" required> Female
 											</label>
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option3" autocomplete="off"> Prefer not to say
+											  <input type="radio" name="options" id="option3" autocomplete="off" required> Prefer not to say
 											</label>
 										</div></p>
-										<p><input type="email" placeholder="Email Address"></p>
+										<p><input type="email" placeholder="Email Address" required></p>
 						        		<p>Civil Status</p>
 						        		<p></p><div class="btn-group btn-group-toggle" data-toggle="buttons">
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option1" autocomplete="off" checked> Single
+											  <input type="radio" name="options" id="option1" autocomplete="off" checked required> Single
 											</label>
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option2" autocomplete="off"> Married
+											  <input type="radio" name="options" id="option2" autocomplete="off" required> Married
 											</label>
 										</div></p>
-						        		<p><input type="tel" placeholder="Mobile Number"></p>
-										<p>Birthdate:<input type="date" placeholder="Birthdate"></p>
-						        		<p><input type="text" placeholder="Shipping Address"></p>
-										<p><input type="text" minlength="16"  maxlength="19" placeholder="Credit Card Number"></p>
-										<p>Date of Expiry<input type="date" placeholder="Date of Expiry"></p>
-										<p><input type="text" minlength="3"  maxlength="3" placeholder="3 Digit Confirmation Number"></p>
+						        		<p><input type="tel" minlength="11" maxlength="11" placeholder="Mobile Number" pattern="[0-9]{11}" required title="Enter Numbers"></p>
+										<p>Birthdate:<input type="date" placeholder="Birthdate" required></p>
+						        		<p><input type="text" placeholder="Shipping Address" required></p>
+										<p><input type="text" minlength="16"  maxlength="19" placeholder="Credit Card Number" pattern="[0-9]{16,}" title="Insufficient digits or has letters" required></p>
+										<p>Date of Expiry<input type="date" placeholder="Date of Expiry" required></p>
+										<p><input type="text" minlength="3"  maxlength="3" placeholder="3 Digit Confirmation Number" required></p>
+										<p><input type="submit"/></p>
 						        	</form>
 						        </div>
 						      </div>
 						    </div>
 						  </div>
 						</div>
-					</div>
-
-					<div class="order-details-wrap">
-						<a href="thankyou.html" class="boxed-btn">Register</a>
 					</div>
 				</div>
 			</div>
@@ -165,16 +162,16 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box about-widget">
 						<h2 class="widget-title">About us</h2>
-						<p>Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+						<p>L'huile Naturelle pioneered the spa industry in Bacolod City conforming to high standards of excellence.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="footer-box get-in-touch">
 						<h2 class="widget-title">Get in Touch</h2>
 						<ul>
-							<li>34/8, East Hukupara, Gifirtok, Sadan.</li>
-							<li>support@fruitkha.com</li>
-							<li>+00 111 222 3333</li>
+							<li>Barangay Villamonte, Bacolod City</li>
+							<li>support@LhuileNaturelle.com</li>
+							<li>+63 956 165 9469</li>
 						</ul>
 					</div>
 				</div>
@@ -209,8 +206,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2019 - <a href="https://imransdesign.com/">Imran Hossain</a>,  All Rights Reserved.<br>
-						Distributed By - <a href="https://themewagon.com/">Themewagon</a>
+					<p>Copyrights &copy; 2023 - <a href="">Emdee</a>,  All Rights Reserved.<br>
 					</p>
 				</div>
 				<div class="col-lg-6 text-right col-md-12">

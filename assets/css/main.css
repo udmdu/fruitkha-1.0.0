@@ -2194,19 +2194,23 @@ a.video-play-btn {
 }
 
 .team-bg-1 {
-  background-image: url(../img/team/team-1.jpg);
+  background-image: url(../img/team/bonzy.png);
 }
 
 .team-bg-2 {
-  background-image: url(../img/team/team-2.jpg);
+  background-image: url(../img/team/danrev.png);
 }
 
 .team-bg-3 {
-  background-image: url(../img/team/team-3.jpg);
+  background-image: url(../img/team/martin.png);
 }
 
 .team-bg-4 {
-  background-image: url(../img/team/team-4.jpg);
+  background-image: url(../img/team/heinrich.png);
+}
+
+.team-bg-5 {
+  background-image: url(../img/team/edzie.png);
 }
 
 .team-bg {
