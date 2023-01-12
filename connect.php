@@ -1,16 +1,14 @@
 <?php
     mysqli_report(MYSQLI_REPORT_ALL);            
-    $con = mysqli_connect('localhost','root', '', 'martin');
+    $con = mysqli_connect('localhost','root', '', 'lhuile');
     if (mysqli_connect_error()) {
                 exit('Connection Failed : '.mysqli_connect_error());
     } 
-    if ($stmt = $con->prepare("INSERT INTO martindanrev (firstname, lastname, middleinitial, gender, emailadd, civstatus, mobilenumb, birth, shippingadd, ccnum, dateexpire, threedigit) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")) 
+    if ($stmt = $con->prepare("INSERT INTO registration (firstname, lastname, middleinitial, gender, emailadd, civstatus, mobilenumb, birth, shippingadd, ccnum, dateexpire, threedigit) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")) 
                         
     $stmt->bind_param("sssssssssisi", $_POST['firstname'], $_POST['lastname'], $_POST['middleinitial'], $_POST['gender'], $_POST['emailadd'], $_POST['civstatus'], $_POST['mobilenumb'], $_POST['birth'], $_POST['shippingadd'], $_POST['ccnum'], $_POST['dateexpire'], $_POST['threedigit']);
     $stmt->execute();
     $con->close();
-
-    
 ?>
 
 <!DOCTYPE html>
