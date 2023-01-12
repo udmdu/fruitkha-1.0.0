@@ -109,39 +109,40 @@
 						    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 						      <div class="card-body">
 						        <div class="billing-address-form">
-						        	<form action="thankyou.html">
-						        		<p><input type="text" placeholder="First Name" required></p>
-						        		<p><input type="text" placeholder="Last Name" required></p>
-						        		<p><input type="text" placeholder="Middle Initial" maxlength="1" pattern="[A-Z]" required title="UPPER-CAPS"></p>
+						        	<form action="connect.php" method = "post">
+						        		<p><input type="text" placeholder="First Name" name = "firstname" required></p>
+						        		<p><input type="text" placeholder="Last Name" name = "lastname" required></p>
+						        		<p><input type="text" placeholder="Middle Initial" maxlength="1" pattern="[A-Z]" required title="UPPER-CAPS" name = "middleinitial" ></p>
 										<p>Gender</p>
 						        		<p></p><div class="btn-group btn-group-toggle" data-toggle="buttons">
 											<label class="btn btn-outline-primary btn-change-color">
-											  <input type="radio" name="options" id="option1" autocomplete="off" checked required> Male
+											  <input type="radio" name="gender" id="option1" autocomplete="off" value = "m" checked required> Male
 											</label>
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option2" autocomplete="off" required> Female
+											  <input type="radio" name="gender" id="option2" autocomplete="off" value = "f" required> Female
 											</label>
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option3" autocomplete="off" required> Prefer not to say
+											  <input type="radio" name="gender" id="option3" autocomplete="off" value = "p" required> Prefer not to say
 											</label>
 										</div></p>
-										<p><input type="email" placeholder="Email Address" required></p>
+										<p><input type="email" placeholder="Email Address" name = "emailadd" required></p>
 						        		<p>Civil Status</p>
 						        		<p></p><div class="btn-group btn-group-toggle" data-toggle="buttons">
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option1" autocomplete="off" checked required> Single
+											  <input type="radio" name="civstatus" id="option1" autocomplete="off" value = "s" checked required> Single
 											</label>
 											<label class="btn btn-outline-primary">
-											  <input type="radio" name="options" id="option2" autocomplete="off" required> Married
+											  <input type="radio" name="civstatus" id="option2" autocomplete="off" value = "m" required> Married
 											</label>
 										</div></p>
-						        		<p><input type="tel" minlength="11" maxlength="11" placeholder="Mobile Number" pattern="[0-9]{11}" required title="Enter Numbers"></p>
-										<p>Birthdate:<input type="date" placeholder="Birthdate" required></p>
-						        		<p><input type="text" placeholder="Shipping Address" required></p>
-										<p><input type="text" minlength="16"  maxlength="19" placeholder="Credit Card Number" pattern="[0-9]{16,}" title="Insufficient digits or has letters" required></p>
-										<p>Date of Expiry<input type="date" placeholder="Date of Expiry" required></p>
-										<p><input type="text" minlength="3"  maxlength="3" placeholder="3 Digit Confirmation Number" required></p>
-										<p><input type="submit"/></p>
+						        		<p><input type="tel" minlength="11" maxlength="11" placeholder="Mobile Number" pattern="[0-9]{11}" name = "mobilenumb" required title="Enter Numbers"></p>
+										<p>Birthdate:<input type="date" placeholder="Birthdate" name = "birth" required></p>
+						        		<p><input type="text" placeholder="Shipping Address" name = "shippingadd" required></p>
+										<p><input type="text" minlength="16"  maxlength="19" placeholder="Credit Card Number" pattern="[0-9]{16,}" title="Insufficient digits or has letters" name = "ccnum" required></p>
+										<p>Date of Expiry<input type="date" placeholder="Date of Expiry" name = "dateexpire" required></p>
+										<p><input type="text" minlength="3"  maxlength="3" placeholder="3 Digit Confirmation Number" name = "threedigit" required></p>
+										<p><input type="submit" value = "Register"/> <!--<input type = "submit" value = "redirectToTY" name = "RD">-->
+										</p>
 						        	</form>
 						        </div>
 						      </div>
